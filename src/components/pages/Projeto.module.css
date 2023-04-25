@@ -1,0 +1,46 @@
+.projeto {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top h1 {
+  background-color: #101010;
+  color: #deb212;
+  padding: 3px 10px;
+}
+
+.top button {
+  width: 60px;
+  height: 40px;
+  font-size: 1em;
+  background-color: #010101;
+  border: 0;
+  font-weight: bold;
+  color: #deb212;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 9px;
+
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 20px;
+}
+
+
+
+.body span {
+  font-weight: bold;
+}

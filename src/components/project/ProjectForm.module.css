@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.form input {
+  height: 27px;
+  font-size: 1.0em;
+  padding-left: 4px;
+}
+
+.form select {
+  margin: 10px 0;
+  height: 27px;
+  font-size: 0.9em;
+}

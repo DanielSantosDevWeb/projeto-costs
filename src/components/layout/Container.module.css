@@ -1,0 +1,26 @@
+.container {
+  padding: 20px;
+  min-width: 250px;
+  max-width: 1000px;
+  margin: auto;
+  min-height: 500px;
+  max-height: none;
+  display: flex;
+  justify-content: space-between;
+
+  
+  background-color: rgb(245, 245, 245);
+}
+
+.minHeigth {
+  min-height: 75%;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.colum {
+  flex-direction: column;
+  justify-content: flex-start;
+}

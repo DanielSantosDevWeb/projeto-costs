@@ -1,0 +1,36 @@
+.center {
+  margin: auto;
+}
+
+.home {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto ;
+}
+
+.home span {
+  background-color: #010101;
+  color: #deb212 ;
+}
+
+.home a {
+  width: 130px;
+  height: 40px;
+  background-color: #010101;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #deb212;
+}
+
+.home img {
+  width: 250px;
+}

@@ -1,0 +1,37 @@
+export const ProjetoData = [
+  {
+    nome: "projeto data",
+    valor: "10000",
+    categoria: {
+      id: "1",
+      name: "Infraestrutura",
+    },
+    data: "2003-09-10",
+    cost: 0,
+    services: [],
+    id: 10,
+  },
+];
+
+export const CategoriasData = [
+  {
+    id: 1,
+    nome: "Infraestrutura",
+  },
+  {
+    id: 2,
+    nome: "Densenvolvimento",
+  },
+  {
+    id: 3,
+    nome: "Designer",
+  },
+  {
+    id: 4,
+    nome: "Planejamento",
+  },
+  {
+    id: 5,
+    nome: "Arquitetura",
+  },
+];

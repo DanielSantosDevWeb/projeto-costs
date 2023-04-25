@@ -1,0 +1,46 @@
+.cards {
+  
+  display: grid;
+  gap: 5px;
+  margin: 10px 0px;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.card h4 {
+  background-color: #010101;
+  color: #deb212;
+  font-size: 1.6em; 
+  padding: 3px 8px;
+}
+
+.card span {
+  font-weight: bold;
+
+}
+
+.modificar {
+  display: flex;
+  gap: 15px;
+}
+
+.modificar div {
+  border: 1px solid #010101;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+.modificar div:hover {
+  background-color: #010101;
+  color: #deb212;
+  cursor: pointer;
+  transition: .2s;
+} 
+
