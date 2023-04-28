@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-
+import styles from "./App.module.css";
 import Container from "./components/layout/Container";
 import Home from "./components/pages/Home";
 import Contato from "./components/pages/Contato";
@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className={styles.app}>
       {/* BrowserRouter eh onde ficara todo meu codigo usando o reactRouterDom */}
       <BrowserRouter>
         <NavBar />

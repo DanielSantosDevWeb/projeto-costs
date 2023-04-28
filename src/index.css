@@ -9,8 +9,11 @@
   font-family: 'Roboto', sans-serif;;
 }
 
-html, body, #root {
+html {
   height: 100%;
   background-color: #efefef;
 }
 
+#root , body {
+  height: 100%;
+}
