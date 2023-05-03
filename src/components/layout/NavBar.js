@@ -7,14 +7,14 @@ function NavBar() {
   return (
     <ul className={styles.lista}>
       <ul>
-        <Link to="/projeto-costs">
+        <Link to="/">
           <img src={logo} alt="Logo projeto" />
         </Link>
       </ul>
       <div className={styles.navBar}>
         <ul className={styles.items}>
           <li className={styles.item}>
-            <Link to="/projeto-costs">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className={styles.item}>
             <Link to="/empresa">Empresa</Link>

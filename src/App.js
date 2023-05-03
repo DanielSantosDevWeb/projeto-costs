@@ -1,10 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  BrowserRouter,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 import styles from "./App.module.css";
@@ -31,28 +25,28 @@ function App() {
   return (
     <div className={styles.app}>
       {/* BrowserRouter eh onde ficara todo meu codigo usando o reactRouterDom */}
-      <BrowserRouter>
-        <NavBar />
-        <Container>
-          {/* todo o conteudo que sera mudado dinamicamente */}
-          <Routes>
-            <Route path="/projeto-costs" element={<Home />} />{" "}
-            {/* Minha rota que sera mudada quando for chamada */}
-            <Route path="/empresa" element={<Empresa />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route
-              path="/novoProjeto"
-              element={<NovoProjeto categorias={dataBase} />}
-            />
-            <Route path="/projetos" element={<Projetos />} />
-            <Route
-              path="/projeto/:id"
-              element={<Projeto categorias={dataBase} />}
-            />
-          </Routes>
-          <Footer />
-        </Container>
-      </BrowserRouter>
+      {/* <HashRouter> */}
+      <NavBar />
+      <Container>
+        {/* todo o conteudo que sera mudado dinamicamente */}
+        <Routes>
+          <Route path="/" element={<Home />} />{" "}
+          {/* Minha rota que sera mudada quando for chamada */}
+          <Route path="/empresa" element={<Empresa />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route
+            path="/novoProjeto"
+            element={<NovoProjeto categorias={dataBase} />}
+          />
+          <Route path="/projetos" element={<Projetos />} />
+          <Route
+            path="/projeto/:id"
+            element={<Projeto categorias={dataBase} />}
+          />
+        </Routes>
+        <Footer />
+      </Container>
+      {/* </HashRouter> */}
     </div>
   );
 }
