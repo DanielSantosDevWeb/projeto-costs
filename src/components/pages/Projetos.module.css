@@ -7,3 +7,15 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and ( min-height: 660px ) {
+  .body {
+    height: 600px;
+  }
+}
+
+@media screen and ( min-height: 800px ) {
+  .body {
+    height: 800px;
+  }
+}

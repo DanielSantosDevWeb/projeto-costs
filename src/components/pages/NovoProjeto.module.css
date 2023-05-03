@@ -6,3 +6,15 @@
   margin: 20px auto;
   
 }
+
+@media screen and ( min-height: 660px ) {
+  .novoProjeto {
+    height: 600px;
+  }
+}
+
+@media screen and ( min-height: 800px ) {
+  .novoProjeto {
+    height: 800px;
+  }
+}
