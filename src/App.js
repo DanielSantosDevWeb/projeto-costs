@@ -36,7 +36,7 @@ function App() {
         <Container>
           {/* todo o conteudo que sera mudado dinamicamente */}
           <Routes>
-            <Route path="/" element={<Home />} />{" "}
+            <Route path="/projeto-costs" element={<Home />} />{" "}
             {/* Minha rota que sera mudada quando for chamada */}
             <Route path="/empresa" element={<Empresa />} />
             <Route path="/contato" element={<Contato />} />
@@ -50,8 +50,8 @@ function App() {
               element={<Projeto categorias={dataBase} />}
             />
           </Routes>
+          <Footer />
         </Container>
-        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -35,3 +35,15 @@
 .home img {
   width: 250px;
 }
+
+@media screen and ( min-height: 660px ) {
+  .home {
+    height: 600px;
+  }
+}
+
+@media screen and ( min-height: 800px ) {
+  .home {
+    height: 800px;
+  }
+}

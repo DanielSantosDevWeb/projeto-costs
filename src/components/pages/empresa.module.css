@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 20px;
 }
 
 .container h1 {
@@ -28,4 +29,16 @@
 .container div p {
   text-indent: 10px;
   padding: 5px;
+}
+
+@media screen and ( min-height: 660px ) {
+  .container {
+    height: 600px;
+  }
+}
+
+@media screen and ( min-height: 800px ) {
+  .container {
+    height: 800px;
+  }
 }
